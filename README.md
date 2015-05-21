@@ -1,5 +1,9 @@
 # Redradix JavaScript Style Guide
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/redradix/javascript-style-guide/master/redradix-heart-js.png" alt="Redradix loves JavaScript"/>
+</p>
+
 ## Table of Contents
 
 1. [Naming 101](#naming-101)
