@@ -7,6 +7,7 @@
 ## Table of Contents
 
 1. [Naming 101](#naming-101)
+1. [Strings](#strings)
 
 ## Naming 101
 
@@ -33,4 +34,11 @@ class MyClass {}
 - Use UPPERCASE when naming constants.
 ```javascript
 const MY_CONSTANT = 1;
+```
+
+## Strings
+
+- Use single quotes `''` for strings.
+```javascript
+var name = 'John Doe';
 ```
