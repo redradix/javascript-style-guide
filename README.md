@@ -42,3 +42,12 @@ const MY_CONSTANT = 1;
 ```javascript
 var name = 'John Doe';
 ```
+
+- Strings longer than 80 characters should be written across multiple lines using string concatenation.
+
+- When programmatically building up strings, use template strings instead of concatenation.
+```javascript
+function sayHi(name) {
+  return `How are you, ${name}?`;
+}
+```
