@@ -8,6 +8,8 @@
 
 1. [Naming 101](#naming-101)
 1. [Strings](#strings)
+1. [References](#references)
+
 
 ## Naming 101
 
@@ -50,4 +52,27 @@ var name = 'John Doe';
 function sayHi(name) {
   return `How are you, ${name}?`;
 }
+```
+
+##References
+
+- Use `const` for all of your references; avoid using `var`.
+```javascript
+const a = 1;
+```
+
+- If you must mutate references, use `let`.
+```javascript
+let a = 1;
+```
+
+- Note that both `let` and `const` are block-scoped.
+```javascript
+// const and let only exist in the blocks they are defined in.
+{
+  let a = 1;
+  const b = 1;
+}
+console.log(a); // ReferenceError
+console.log(b); // ReferenceError
 ```
