@@ -1,0 +1,30 @@
+{
+  "name": "redradix-style",
+  "version": "1.0.0",
+  "description": "JavaScript Style Guide for Redradix Projects.",
+  "scripts": {
+    "publish-all": "npm publish && cd ./packages/eslint-config-redradix && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redradix/javascript-style-guide.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "redradix",
+    "es6",
+    "es2015",
+    "react",
+    "jsx"
+  ],
+  "author": "Roman Liutikov <roman@redradix.com> (https://twitter.com/roman01la)",
+  "contributors": [
+    "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redradix/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/redradix/javascript-style-guide"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-redradix",
+  "version": "1.0.0",
+  "description": "Redradix's ESLint config, following our styleguide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redradix/javascript-style-guide"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "redradix",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redradix/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/redradix/javascript-style-guide",
+  "dependencies": {
+    "redradix-style": "1.0.0",
+    "babel-eslint": "3.1.7",
+    "eslint": "0.21.2",
+    "eslint-plugin-react": "2.3.0",
+    "resolve": "1.1.6",
+    "strip-json-comments": "1.0.2"
+  }
+}
