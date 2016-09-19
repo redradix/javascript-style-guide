@@ -2,11 +2,13 @@
   "parser": "babel-eslint",
   "plugins": [
     "react",
-    "babel"
+    "babel",
+    "mocha"
   ],
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
